@@ -1,6 +1,6 @@
 ## My S3 buckets
 
-- Public collection: https://public-willchoi-2026.s3.amazonaws.com/index.html
+- Public collection: https://public-willchoi.s3.amazonaws.com/index.html
 - Private book: `s3://secret-willchoi/pg1952.txt` (run `./share_book.sh https://www.gutenberg.org/cache/epub/1952/pg1952.txt secret-willchoi 604800` to generate a fresh temporary link).
 
 A public bucket is useful when files need to be accessible to everyone, such as a website or publicly available books. A presigned URL is better when I want to share a private file with someone for a limited amount of time without making the entire bucket public.
